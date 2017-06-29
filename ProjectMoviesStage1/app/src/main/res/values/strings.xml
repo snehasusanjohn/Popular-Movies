@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Project Movies</string>
+
+    <!--Strings used in Movie Detail Activity -->
+
+    <string name="average_rating">Average Rating: </string>
+
+    <!--Strings used in Main Movies List Activity -->
+
+    <string name="menu_sort">Sort By</string>
+    <string name="menu_sort_popularity">Most Popular</string>
+    <string name="menu_sort_rating">Top Rated</string>
+
+    <string name="error_internet_connection">Please make sure you are connected to the internet and try again later.</string>
+
+
+
+</resources>
