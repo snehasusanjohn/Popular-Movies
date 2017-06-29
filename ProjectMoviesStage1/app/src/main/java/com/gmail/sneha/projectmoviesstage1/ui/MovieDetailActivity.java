@@ -23,7 +23,8 @@ public class MovieDetailActivity extends AppCompatActivity {
             mMovie = (Movie) getIntent().getSerializableExtra(EXTRA_MOVIE);
         }
         else{
-            throw new IllegalArgumentException("Detail activity must receive a movie parcelable");
+            String exception = getString(R.string.movie_detail_activity_exception);
+            throw new IllegalArgumentException(exception);
         }
 
 
