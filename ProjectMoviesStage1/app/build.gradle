@@ -20,6 +20,9 @@ android {
     buildTypes.each {
         it.buildConfigField 'String', 'THE_MOVIE_DATABASE_API_KEY', TheMovieDatabasepApiKey
     }
+    dataBinding {
+        enabled true
+    }
 }
 
 dependencies {
@@ -36,4 +39,6 @@ dependencies {
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.squareup.okhttp:okhttp:2.7.2'
     testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.android.databinding:compiler:2.3.0'
+
 }

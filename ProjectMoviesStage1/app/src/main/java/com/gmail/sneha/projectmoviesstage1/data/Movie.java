@@ -45,135 +45,123 @@ public class Movie implements Serializable{
     @Expose
     private Integer voteCount;
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @return
-//     * The adult
-//     */
-//    public Boolean getAdult() {
-//        return adult;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @return
+     * The adult
+     */
+    public Boolean getAdult() {
+        return adult;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param adult
-//     * The adult
-//     */
-//    public void setAdult(Boolean adult) {
-//        this.adult = adult;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @param adult
+     * The adult
+     */
+    public void setAdult(Boolean adult) {
+        this.adult = adult;
+    }
 
     /**
      *
      * @return
      * The backdropPath
      */
-    public String getBackdropPath() {
+    public String getBackdropPath()
+    {
         return "http://image.tmdb.org/t/p/w500" + backdropPath;
     }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param backdropPath
-//     * The backdrop_path
-//     */
-//    public void setBackdropPath(String backdropPath) {
-//        this.backdropPath = backdropPath;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @return
-//     * The genreIds
-//     */
-//    public List<Integer> getGenreIds() {
-//        return genreIds;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @param backdropPath
+     * The backdrop_path
+     */
+    public void setBackdropPath(String backdropPath) {
+        this.backdropPath = backdropPath;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param genreIds
-//     * The genre_ids
-//     */
-//    public void setGenreIds(List<Integer> genreIds) {
-//        this.genreIds = genreIds;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @return
+     * The genreIds
+     */
+    public List<Integer> getGenreIds() {
+        return genreIds;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @return
-//     * The id
-//     */
-//    public Integer getId() {
-//        return id;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param id
-//     * The id
-//     */
-//    public void setId(Integer id) {
-//        this.id = id;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+   /**
+     *
+     * @param genreIds
+     * The genre_ids
+     */
+    public void setGenreIds(List<Integer> genreIds) {
+        this.genreIds = genreIds;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @return
-//     * The originalLanguage
-//     */
-//    public String getOriginalLanguage() {
-//        return originalLanguage;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @return
+     * The id
+     */
+    public Integer getId() {
+        return id;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param originalLanguage
-//     * The original_language
-//     */
-//    public void setOriginalLanguage(String originalLanguage) {
-//        this.originalLanguage = originalLanguage;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @param id
+     * The id
+     */
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @return
-//     * The originalTitle
-//     */
-//    public String getOriginalTitle() {
-//        return originalTitle;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @return
+     * The originalLanguage
+     */
+    public String getOriginalLanguage() {
+        return originalLanguage;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param originalTitle
-//     * The original_title
-//     */
-//    public void setOriginalTitle(String originalTitle) {
-//        this.originalTitle = originalTitle;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+
+
+    /**
+     *
+     * @param originalLanguage
+     * The original_language
+     */
+    public void setOriginalLanguage(String originalLanguage) {
+        this.originalLanguage = originalLanguage;
+    }
+
+
+
+    /**
+     *
+     * @return
+     * The originalTitle
+     */
+    public String getOriginalTitle() {
+        return originalTitle;
+    }
+
+
+
+    /**
+     *
+     * @param originalTitle
+     * The original_title
+     */
+    public void setOriginalTitle(String originalTitle) {
+        this.originalTitle = originalTitle;
+    }
+
 
     /**
      *
@@ -184,16 +172,16 @@ public class Movie implements Serializable{
         return overview;
     }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param overview
-//     * The overview
-//     */
-//    public void setOverview(String overview) {
-//        this.overview = overview;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+
+    /**
+     *
+     * @param overview
+     * The overview
+     */
+    public void setOverview(String overview) {
+        this.overview = overview;
+    }
+
 
     /**
      *
@@ -204,16 +192,16 @@ public class Movie implements Serializable{
         return releaseDate;
     }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param releaseDate
-//     * The release_date
-//     */
-//    public void setReleaseDate(String releaseDate) {
-//        this.releaseDate = releaseDate;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+
+    /**
+     *
+     * @param releaseDate
+     * The release_date
+     */
+    public void setReleaseDate(String releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
 
     /**
      *
@@ -224,38 +212,38 @@ public class Movie implements Serializable{
         return "http://image.tmdb.org/t/p/w500" + posterPath;
     }
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @param posterPath
-//     * The poster_path
-//     */
-//    public void setPosterPath(String posterPath) {
-//        this.posterPath = posterPath;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
 
-// --Commented out by Inspection START (6/28/2017 2:42 PM):
-//    /**
-//     *
-//     * @return
-//     * The popularity
-//     */
-//    public Double getPopularity() {
-//        return popularity;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:42 PM)
+    /**
+     *
+     * @param posterPath
+     * The poster_path
+     */
+    public void setPosterPath(String posterPath) {
+        this.posterPath = posterPath;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @param popularity
-//     * The popularity
-//     */
-//    public void setPopularity(Double popularity) {
-//        this.popularity = popularity;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
+
+
+    /**
+     *
+     * @return
+     * The popularity
+     */
+    public Double getPopularity() {
+        return popularity;
+    }
+
+
+
+    /**
+     *
+     * @param popularity
+     * The popularity
+     */
+    public void setPopularity(Double popularity) {
+        this.popularity = popularity;
+    }
+
 
     /**
      *
@@ -266,38 +254,38 @@ public class Movie implements Serializable{
         return title;
     }
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @param title
-//     * The title
-//     */
-//    public void setTitle(String title) {
-//        this.title = title;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @return
-//     * The video
-//     */
-//    public Boolean getVideo() {
-//        return video;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
+    /**
+     *
+     * @param title
+     * The title
+     */
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @param video
-//     * The video
-//     */
-//    public void setVideo(Boolean video) {
-//        this.video = video;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
+
+
+    /**
+     *
+     * @return
+     * The video
+     */
+    public Boolean getVideo() {
+        return video;
+    }
+
+
+
+    /**
+     *
+     * @param video
+     * The video
+     */
+    public void setVideo(Boolean video) {
+        this.video = video;
+    }
+
 
     /**
      *
@@ -308,36 +296,36 @@ public class Movie implements Serializable{
         return voteAverage;
     }
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @param voteAverage
-//     * The vote_average
-//     */
-//    public void setVoteAverage(Double voteAverage) {
-//        this.voteAverage = voteAverage;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @return
-//     * The voteCount
-//     */
-//    public Integer getVoteCount() {
-//        return voteCount;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
+    /**
+     *
+     * @param voteAverage
+     * The vote_average
+     */
+    public void setVoteAverage(Double voteAverage) {
+        this.voteAverage = voteAverage;
+    }
 
-// --Commented out by Inspection START (6/28/2017 2:43 PM):
-//    /**
-//     *
-//     * @param voteCount
-//     * The vote_count
-//     */
-//    public void setVoteCount(Integer voteCount) {
-//        this.voteCount = voteCount;
-//    }
-// --Commented out by Inspection STOP (6/28/2017 2:43 PM)
+
+
+    /**
+     *
+     * @return
+     * The voteCount
+     */
+    public Integer getVoteCount() {
+        return voteCount;
+    }
+
+
+
+    /**
+     *
+     * @param voteCount
+     * The vote_count
+     */
+    public void setVoteCount(Integer voteCount) {
+        this.voteCount = voteCount;
+    }
+
 }

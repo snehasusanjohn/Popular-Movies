@@ -106,8 +106,14 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
             public void failure(RetrofitError error) {
                 mLoadingIndicator.setVisibility(View.GONE);
                 Context context = MainActivity.this;
-                String textToShow = getString(R.string.error_internet_connection);
-                Toast.makeText(context, textToShow, Toast.LENGTH_LONG).show();
+                String errorText;
+                if(error.getResponse()!= null){
+                    errorText = error.getResponse().getReason();
+                }
+                else{
+                    errorText = error.getMessage();
+                }
+                Toast.makeText(context, errorText + getString(R.string.error_internet_connection), Toast.LENGTH_LONG).show();
                 error.printStackTrace();
             }
         });
@@ -142,8 +148,14 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.List
             public void failure(RetrofitError error) {
                 mLoadingIndicator.setVisibility(View.GONE);
                 Context context = MainActivity.this;
-                String textToShow = getString(R.string.error_internet_connection);
-                Toast.makeText(context, textToShow, Toast.LENGTH_LONG).show();
+                String errorText;
+                if(error.getResponse()!= null){
+                    errorText = error.getResponse().getReason();
+                }
+                else{
+                    errorText = error.getMessage();
+                }
+                Toast.makeText(context, errorText + getString(R.string.error_internet_connection), Toast.LENGTH_LONG).show();
                 error.printStackTrace();
             }
         });
