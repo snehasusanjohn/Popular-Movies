@@ -1,6 +1,6 @@
 # Popular-Movies
 GitHub repository for Udacity Popular Movies Project.
-This is Stage 1 of the first Project “Popular Movies” in the Udacity Nano Degree Program.
+This is Stage 1 of the first Project “Popular Movies” in the Udacity Android Nano Degree Program.
 This app will allow users to discover the most popular movies playing. In Stage 1, the app does the following:
 •	Present the user with a grid arrangement of movie posters upon launch.
 •	Allow your user to change sort order via a setting:
